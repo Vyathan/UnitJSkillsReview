@@ -12,7 +12,7 @@ html {
    font-size: 19px;
 }
 a, article, body, div, figcaption, figure, footer, header, h1, 
-h2, h3, img, li, nav, p, section, ul {
+h2, h3, img, li, nav, p, section, ul, fieldset, form, legend {
    border: 0;
    padding: 0;
    margin: 0;
@@ -134,6 +134,29 @@ h2 {
 h3 {
    font-size: 1.25em;
 }
+
+/* form styles */
+form {
+   padding: 10px;
+   background-color: #e3d5ba;
+}
+
+/* fieldset styles */
+fieldset {
+   margin-bottom: 1em;
+}
+fieldset fieldset {
+   margin-top: 1em;
+   padding: 0.8em;
+   border: solid 1px #777;
+}
+legend {
+   font-size: 1.25em;
+}
+.deliveryinfo legend, .orderinfo > legend, .additionalinfo legend {
+   margin-left: -0.1em;
+   font-weight: bold;
+} 
 
 /* footer section */
 footer {
