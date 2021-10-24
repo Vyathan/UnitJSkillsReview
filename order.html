@@ -40,6 +40,16 @@
             <form>
                <fieldset class="deliveryinfo">
                   <legend>Delivery Information</legend>
+                  <label for="nameinput">Name</label>
+                  <textarea name="name" id="nameinput"></textarea>
+                  <label>Street Address</label>
+                  <textarea name="address" id="addressinput"></textarea>
+                  <label>City</label>
+                  <textarea name="city" id="cityinput"></textarea>
+                  <label>Email</label>
+                  <input type="email" name="email" id="emailinput">
+                  <label>Phone</label>
+                  <input type="tel" name="phone" id="phoneinput">
                </fieldset>
                <fieldset class="orderinfo">
                   <legend>Order</legend>
@@ -55,6 +65,8 @@
                </fieldset>
                <fieldset class="additionalinfo">
                   <legend>Special Instructions</legend>
+                  <label for="instructions">Special Requests, delivery details</label>
+                  <textarea name="instructions" id="instructions" rows="3" cols="50"></textarea>
                </fieldset>
                <fieldset class="submitbutton"></fieldset>
             </form>

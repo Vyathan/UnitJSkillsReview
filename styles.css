@@ -12,7 +12,7 @@ html {
    font-size: 19px;
 }
 a, article, body, div, figcaption, figure, footer, header, h1, 
-h2, h3, img, li, nav, p, section, ul, fieldset, form, legend {
+h2, h3, img, li, nav, p, section, ul, fieldset, form, legend, input, label, textarea {
    border: 0;
    padding: 0;
    margin: 0;
