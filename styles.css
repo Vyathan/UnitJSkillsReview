@@ -157,6 +157,10 @@ legend {
    margin-left: -0.1em;
    font-weight: bold;
 } 
+.submitbutton {
+   padding-top: 0.5em;
+   text-align: center;
+}
 
 /* field styles */
 .deliveryinfo input, textarea {
@@ -177,6 +181,13 @@ legend {
 select {
    margin-bottom: 0.6em;
    font-size: 1em;
+}
+#submit {
+   border: none;
+   padding: 0.4em 0.6em;
+   background-color: #ffcc66;
+   font-size: 1.25em;
+   border-radius: 10px;
 }
 
 /* label styles */
