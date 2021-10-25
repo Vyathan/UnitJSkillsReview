@@ -41,13 +41,13 @@
                <fieldset class="deliveryinfo">
                   <legend>Delivery Information</legend>
                   <label for="nameinput">Name</label>
-                  <textarea name="name" id="nameinput"></textarea>
+                  <textarea name="name" id="nameinput" placeholder="First and last name"></textarea>
                   <label>Street Address</label>
-                  <textarea name="address" id="addressinput"></textarea>
+                  <textarea name="address" id="addressinput" placeholder="Building number and street"></textarea>
                   <label>City</label>
                   <textarea name="city" id="cityinput"></textarea>
                   <label>Email</label>
-                  <input type="email" name="email" id="emailinput">
+                  <input type="email" name="email" id="emailinput" placeholder="address@example.com">
                   <label>Phone</label>
                   <input type="tel" name="phone" id="phoneinput">
                </fieldset>
@@ -61,6 +61,22 @@
                   </fieldset>
                   <fieldset class="toppinginfo">
                      <legend>Topping(s)</legend>
+                     <label for="pepperoni">
+                        <input type="checkbox" id="pepperoni" value="Pepperoni" name="toppings">
+                        Pepperoni
+                     </label>
+                     <label for="sausage">
+                        <input type="checkbox" id="sausage" value="Sausage" name="toppings">
+                        Sausage
+                     </label>
+                     <label for="greenpepper">
+                        <input type="checkbox" id="greenpepper" value="Green Peppers" name="toppings">
+                        Green Peppers
+                     </label>
+                     <label for="onion">
+                        <input type="checkbox" id="onion" value="Onions" name="toppings">
+                        Onions
+                     </label>
                   </fieldset>
                </fieldset>
                <fieldset class="additionalinfo">
