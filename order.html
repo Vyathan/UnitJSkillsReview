@@ -37,7 +37,7 @@
          </nav>
          <article>
             <h2 id="contentstart">Order Online</h2>
-            <form>
+            <form action="results.html">
                <fieldset class="deliveryinfo">
                   <legend>Delivery Information</legend>
                   <label for="nameinput">Name</label>
@@ -55,9 +55,6 @@
                   <legend>Order</legend>
                   <fieldset class="crustinfo">
                      <legend>Crust</legend>
-                  </fieldset>
-                  <fieldset class="sizeinfo">
-                     <legend>Size</legend>
                      <label for="thin">
                         <input type="radio" id="thin" value="Thin" name="crust">
                         Thin Crust
@@ -66,6 +63,15 @@
                         <input type="radio" id="thick" value="Deep Dish" name="crust" checked>
                         Deep Dish
                      </label>
+                  </fieldset>
+                  <fieldset class="sizeinfo">
+                     <legend>Size</legend>
+                     <select id="size" name="size">
+                        <option value="small">Small</option>
+                        <option value="medium">Medium</option>
+                        <option value="large">Large</option>
+                        <option value="xl">Extra Large</option>
+                     </select>
                   </fieldset>
                   <fieldset class="toppinginfo">
                      <legend>Topping(s)</legend>
@@ -92,7 +98,9 @@
                   <label for="instructions">Special Requests, delivery details</label>
                   <textarea name="instructions" id="instructions" rows="3" cols="50"></textarea>
                </fieldset>
-               <fieldset class="submitbutton"></fieldset>
+               <fieldset class="submitbutton">
+                  <input type="submit" id="submit" value="Add to Cart">
+               </fieldset>
             </form>
          </article>
          <footer>
